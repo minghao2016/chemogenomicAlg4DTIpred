@@ -9,4 +9,4 @@ How to run:
 - Run source("demo_sth.R") file to get the result
 
 
-If you hanve any questions, please contact Dr. Ming Hao at: kevin.m.hao@gmail.com
+If you have any questions, please contact Dr. Ming Hao at: kevin.m.hao@gmail.com
