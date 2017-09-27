@@ -1,6 +1,6 @@
 
 
-setwd("C:\\Users\\Administrator\\Desktop\\chemogenomicAlg4DTIpred\\dthybrid")
+setwd("your\\dir")
 
 rm(list = ls())
 
