@@ -1,5 +1,5 @@
 
-setwd("C:\\Users\\Administrator\\Desktop\\chemogenomicAlg4DTIpred\\BLM")
+setwd("your\\dir")
 
 rm(list = ls())
 
