@@ -4,7 +4,7 @@ How to run:
 
 - First download the benchmark dataset at (http://web.kuicr.kyoto-u.ac.jp/supp/yoshi/drugtarget/) and put them into individual folder
 
-- Change to individual folder
+- Jump into individual folder and and change the directory in 'setwd("your\\dir")'
 
 - Run demo_sth.R to get the result
 
