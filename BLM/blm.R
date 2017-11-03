@@ -51,7 +51,7 @@ blm <- function(Yfold = Yfold,
   }
   
   ## get maximum
-  Ypred <- pmax(YpredByTarget + t(YpredByDrug))
+  Ypred <- pmax(YpredByTarget, t(YpredByDrug))
   
   return(Ypred)
 }
