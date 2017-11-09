@@ -1,6 +1,6 @@
 
 
-setwd("D:\\000\\chemogenomicAlg4DTIpred-master\\kd\\SCMLKNN")
+setwd("your dir")
 
 rm(list = ls())
 
