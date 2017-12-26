@@ -6,7 +6,7 @@ evalMetrics <- function(Ypred,
   ##     MPR
   percentileRank <- function(x) {
     ### INPUT:
-    ## x: vector, unsorted predicted scores for user i
+    ## x: vector, unsorted predicted scores for drug i
     
     ### OUTPUT:
     ## pr: vector, with percentile rank
