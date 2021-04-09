@@ -171,17 +171,19 @@ for (i in 1:numSplit) {
       ## linear combination
       cat("linear combine \n")
       flush.console()
-      sd <- 0.5 * (KgipD + sd)
-      st <- 0.5 * (KgipT + st)
+      sd_temp <- 0.5 * (KgipD + sd)
+      st_temp <- 0.5 * (KgipT + st)
     } else {
       cat("sim diffusion \n")
       flush.console()
       ## default: nNeig = 3, nIter = 2
-      sd <- fastKF(KgipD, sd, nNeig, nIter) 
-      st <- fastKF(KgipT, st, nNeig, nIter)
+      sd_temp <- fastKF(KgipD, sd, nNeig, nIter) 
+      st_temp <- fastKF(KgipT, st, nNeig, nIter)
     }
     
-    lap <- constrNeig(sd, st, K = K1)
+    lap <- constrNeig(sd_temp, st_temp, K = K1)
+    ########################################################
+    
     lapD <- lap$lapD
     lapT <- lap$lapT
     simD <- lap$simD       
